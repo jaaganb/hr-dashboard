@@ -1,0 +1,69 @@
+[
+    {
+      "jobId": "#001",
+      "name": "John Doe",
+      "position": "Designer",
+      "firstLevel": "6/10",
+      "secondLevel": "7/10",
+      "thirdLevel": "3/10",
+      "fourthLevel": "...",
+      "totalMarks": "...",
+      "status": "Active"
+    },
+    {
+        "jobId": "#002",
+        "name": "John Smith",
+        "position": "Angular Developer",
+        "firstLevel": "6/10",
+        "secondLevel": "5/10",
+        "thirdLevel": "5/10",
+        "fourthLevel": "8/10",
+        "totalMarks": "24/40",
+        "status": "Hired"
+      },
+      {
+        "jobId": "#003",
+        "name": "John Doe",
+        "position": "Designer",
+        "firstLevel": "6/10",
+        "secondLevel": "7/10",
+        "thirdLevel": "3/10",
+        "fourthLevel": "...",
+        "totalMarks": "...",
+        "status": "Reject"
+      },
+      {
+        "jobId": "#004",
+        "name": "John Doe",
+        "position": "Designer",
+        "firstLevel": "6/10",
+        "secondLevel": "7/10",
+        "thirdLevel": "3/10",
+        "fourthLevel": "...",
+        "totalMarks": "...",
+        "status": "Active"
+      },
+      {
+        "jobId": "#005",
+        "name": "John Doe",
+        "position": "Designer",
+        "firstLevel": "6/10",
+        "secondLevel": "7/10",
+        "thirdLevel": "3/10",
+        "fourthLevel": "...",
+        "totalMarks": "...",
+        "status": "Active"
+      },
+      {
+        "jobId": "#006",
+        "name": "John Doe",
+        "position": "Designer",
+        "firstLevel": "6/10",
+        "secondLevel": "7/10",
+        "thirdLevel": "3/10",
+        "fourthLevel": "...",
+        "totalMarks": "...",
+        "status": "Active"
+      }
+    
+  ]

@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ps-rel { position: relative;}
+.search-form{ width: 450px;}
+.header-search { position: absolute; top: 12px; right: 18px;}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-control {
+  border-radius: 20px;
 }
+
+
+.assessment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(74deg, #0A66C2 6.27%, #5994CE 90.96%);
+
+  border-radius: 10px;
+  color: white;
+  width: 300px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  margin-top: 100px;
+}
+
+.assessment-icon{ background-color: #fff; width: 125px; height: 125px; display: flex; justify-content: center; align-items: center; }
+.assessment-icon img { width: 58px; height: 79px; }
+
+.assessment-header h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.assessment-header p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.details-button {
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.assessment-figures {
+  position: absolute;
+  right: 0;
+}
+
+.assessment-figures .char1 {
+  width: 79px;
+  right: 170px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+}
+.assessment-figures .char2 {
+  width: 166px;
+  height: 207px;
+  right: 0px;
+  position: absolute;
+  top: -60px;
+}
+.search-shadow{ box-shadow: 4px 4px 25px 0px #00000026; }

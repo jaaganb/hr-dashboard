@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Python Developers",
+      "description": "Senior Developers",
+      "applications": 258,
+      "growth": "28%",
+      "timestamp": "6 mins ago",
+      "bg": "#D9E4EF",
+      "color":"#0A66C2"
+    },
+    {
+      "id": 2,
+      "title": "Angular Developers",
+      "description": "Senior Developers",
+      "applications": 258,
+      "growth": "28%",
+      "timestamp": "6 mins ago",
+      "bg": "#73A1FB",
+      "color":"#fff"
+    },
+    {
+        "id": 3,
+        "title": "Java Developers",
+        "description": "Senior Developers",
+        "applications": 258,
+        "growth": "28%",
+        "timestamp": "6 mins ago",
+        "bg": "#2F73A0",
+        "color":"#fff"
+      },
+      {
+        "id": 4,
+        "title": "UX/UI Developers",
+        "description": "Senior Developers",
+        "applications": 258,
+        "growth": "28%",
+        "timestamp": "6 mins ago",
+        "bg": "#0A66C2",
+        "color":"#fff"
+      }
+  ]

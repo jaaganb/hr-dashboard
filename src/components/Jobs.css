@@ -1,0 +1,71 @@
+.jobs-block {
+    box-shadow: 4px 4px 25px 0px #00000026;
+    background-color: #fff;
+}
+.jobs-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+   
+
+  }
+  
+  .job-card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-right: 15px; /* Space between cards */
+  }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+  }
+  
+ 
+  .job-header span{ font-size: 19px; }
+
+  
+  
+ 
+  .job-body p { text-align: center; margin-top: 10px; }
+  .job-body h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .job-applications {
+    text-align: center;
+    margin: 15px 0; 
+    
+  }
+  
+  .applications-count {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #D9E4EF;
+    width: 100px;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .job-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+  }
+
+  .growth img{ width: 10px; margin-right: 5px; margin-top: -5px;}
+
+  .posted-search{ padding: 10px !important;;}
+
+  .filter-btn {box-shadow: 4px 4px 25px 0px #00000026; color: #000 !important; padding: 10px !important;
+  }
+  .filter-btn img{margin-right: 10px;}

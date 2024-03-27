@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AssessmentCard from "./components/AssessmentCard";
+import Description from "./components/Description";
+import Header from "./components/Header";
+import ApplicationsInfoChart from "./components/ApplicationsInfoChart";
+import { Container, Row, Col } from "react-bootstrap";
+import Jobs from "./components/Jobs";
+import Candidates from "./components/Candidates";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Description />
+      <Container fluid>
+        <Row>
+          <Col xs={12} md={8}>
+            <ApplicationsInfoChart />
+          </Col>
+          <Col xs={12} md={4}>
+            <AssessmentCard />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} md={12}>
+            <Jobs />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} md={12}>
+            <Candidates />
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 
