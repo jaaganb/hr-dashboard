@@ -68,7 +68,7 @@ const Jobs = () => {
             <h4 className=" ps-3">Posted Jobs</h4>
           </Col>
           <Col xs={3} md={4} className="mt-4">
-            <a href="#">View All</a>
+            <a href="/">View All</a>
           </Col>
           <Col xs={3} md={4} className="mt-4">
             <Form className="d-flex ps-rel  ms-5 ">
