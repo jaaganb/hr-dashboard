@@ -1,7 +1,7 @@
 import "./App.css";
 import AssessmentCard from "./components/AssessmentCard";
 import Description from "./components/Description";
-import Header from "./components/Header";
+
 import ApplicationsInfoChart from "./components/ApplicationsInfoChart";
 import { Container, Row, Col } from "react-bootstrap";
 import Jobs from "./components/Jobs";
@@ -10,7 +10,6 @@ import Candidates from "./components/Candidates";
 function App() {
   return (
     <>
-      <Header />
       <Description />
       <Container fluid>
         <Row>
